@@ -1,3 +1,3 @@
 cd %~dp0
-cd ./backend
+cd ./processor
 python template_processor.py

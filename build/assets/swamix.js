@@ -27,31 +27,6 @@ function parseJwt (token) {
     return JSON.parse(jsonPayload);
 };
 
-function isAdmin(){
-	  $.ajax({
-	    type: "GET",
-	  // contentType: "application/json",
-	  url: '/api/users/profile',
-	  // data: JSON.stringify(data),
-	  headers:{'Authorization':`Bearer ${localStorage.getItem('jwt')}`},
-	  dataType: "json",
-	  success: (data,textstatus,xhr)=>{
-	  	if (DEBUGGING) {
-		    console.log(data,'test if user is admin')
-	  	}
-	    localStorage.setItem('jwt.isAdmin', data.isAdmin)
-	    // Swal.fire("Fetched Bookings list from database", JSON.stringify(data), 'success')
-	  },
-	  error: (data,textstatus,xhr)=>{
-	    // alert('user not loggedin or user is not admin')
-	    if (DEBUGGING=0) {
-	    	console.log("Unable to Check if user is admin")
-	    }
-	    localStorage.removeItem('jwt')
-		  window.location='./sign-in.html'
-	  }
-	});
-}
 
 $(document).ready(function() {
 	$('[data-load]').each(function(index, el) {
@@ -62,8 +37,8 @@ $(document).ready(function() {
 	});
 });
 
-if(!localStorage.getItem('jwt')){
-  window.location='./sign-in.html'
-  alert('you need to login before you can use admin panel')
-}
+// if(!localStorage.getItem('jwt')){
+//   window.location='./sign-in.html'
+//   alert('you need to login before you can use admin panel')
+// }
 
