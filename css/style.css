@@ -1358,7 +1358,7 @@ a.text-info:focus {
   color: #245269;
 }
 .text-warning {
-  color: #8a6d3b;
+  color: #3cb14b;
 }
 a.text-warning:hover,
 a.text-warning:focus {
@@ -2850,10 +2850,10 @@ select[multiple].input-lg {
 .has-warning.checkbox label,
 .has-warning.radio-inline label,
 .has-warning.checkbox-inline label {
-  color: #8a6d3b;
+  color: #3cb14b;
 }
 .has-warning .form-control {
-  border-color: #8a6d3b;
+  border-color: #3cb14b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 }
@@ -2863,12 +2863,12 @@ select[multiple].input-lg {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
 }
 .has-warning .input-group-addon {
-  color: #8a6d3b;
+  color: #3cb14b;
   background-color: #fcf8e3;
-  border-color: #8a6d3b;
+  border-color: #3cb14b;
 }
 .has-warning .form-control-feedback {
-  color: #8a6d3b;
+  color: #3cb14b;
 }
 .has-error .help-block,
 .has-error .control-label,
@@ -5078,7 +5078,7 @@ a.thumbnail.active {
   color: #245269;
 }
 .alert-warning {
-  color: #8a6d3b;
+  color: #3cb14b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
@@ -5382,12 +5382,12 @@ button.list-group-item-info.active:focus {
   border-color: #31708f;
 }
 .list-group-item-warning {
-  color: #8a6d3b;
+  color: #3cb14b;
   background-color: #fcf8e3;
 }
 a.list-group-item-warning,
 button.list-group-item-warning {
-  color: #8a6d3b;
+  color: #3cb14b;
 }
 a.list-group-item-warning .list-group-item-heading,
 button.list-group-item-warning .list-group-item-heading {
@@ -5397,7 +5397,7 @@ a.list-group-item-warning:hover,
 button.list-group-item-warning:hover,
 a.list-group-item-warning:focus,
 button.list-group-item-warning:focus {
-  color: #8a6d3b;
+  color: #3cb14b;
   background-color: #faf2cc;
 }
 a.list-group-item-warning.active,
@@ -5407,8 +5407,8 @@ button.list-group-item-warning.active:hover,
 a.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:focus {
   color: #fff;
-  background-color: #8a6d3b;
-  border-color: #8a6d3b;
+  background-color: #3cb14b;
+  border-color: #3cb14b;
 }
 .list-group-item-danger {
   color: #a94442;
@@ -5758,7 +5758,7 @@ button.list-group-item-danger.active:focus {
   border-color: #faebcc;
 }
 .panel-warning > .panel-heading {
-  color: #8a6d3b;
+  color: #3cb14b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
@@ -5767,7 +5767,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-warning > .panel-heading .badge {
   color: #fcf8e3;
-  background-color: #8a6d3b;
+  background-color: #3cb14b;
 }
 .panel-warning > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #faebcc;
@@ -9095,14 +9095,14 @@ textarea:focus {
   width:auto;
   list-style:none;
   margin-left:15px;
-  color: #e0bb63;
+  color: #0cb14b;
   text-transform:capitalize;
 }
 .rle_top_header ul li img{
   margin-right:10px;
 }
 .rle_top_header ul li a{
-  color: #dcb14b;
+  color: #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -9112,7 +9112,7 @@ textarea:focus {
   font-size: 14px;
 }
 .rle_top_header ul li a:hover{
-  color: #dcb14b;
+  color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -9167,7 +9167,7 @@ textarea:focus {
   width:100%;
 }
 .rle_login_form p a{
-  color: #dcb14b;
+  color: #0cb14b;
 }
 .rle_login_form .form{
   float:left;
@@ -9252,7 +9252,7 @@ textarea:focus {
     left: 0px;
 }
 .rle_checkbox [type="checkbox"]:not(:checked) + label:after {
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   opacity: 0;
   transition:all 0.3s;
   -webkit-transform: scale(0);
@@ -9262,7 +9262,7 @@ textarea:focus {
   transform: scale(0);
 }
 .rle_checkbox [type="checkbox"]:checked + label:after {
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   opacity: 1;
   transition:all 0.3s;
   -webkit-transform: scale(1);
@@ -9295,7 +9295,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_login_form .form a.forgot_pswd:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -9402,7 +9402,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_header_wrapper .rle_main_menu ul li a:after{
-  border-bottom: 2px solid #dcb14b;
+  border-bottom: 2px solid #0cb14b;
 }
 .rle_header_wrapper .rle_main_menu ul li a:hover:after{
     width: 100%;
@@ -9476,7 +9476,7 @@ textarea:focus {
 }
 .rle_header_wrapper .rle_main_menu ul li ul.sub-menu li a:hover{
   color: #ffffff;
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -9504,7 +9504,7 @@ textarea:focus {
   text-transform:capitalize;
 }
 .rle_banner_text h1 span{
-  color:#dcb14b;
+  color:#0cb14b;
 }
 .rle_banner_text p{
   float:left;
@@ -9565,7 +9565,7 @@ textarea:focus {
 }
 .rle_searchform_tabs ul.nav-tabs > li > a {
   text-transform:capitalize;
-  color: #dcb14b;
+  color: #0cb14b;
   border-radius: 0px;
   background-color: rgb(255, 255, 255);
   font-size:16px;
@@ -9576,14 +9576,14 @@ textarea:focus {
 }
 .rle_searchform_tabs ul.nav > li > a:hover, .rle_searchform_tabs ul.nav > li > a:focus {
     text-decoration: none;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     border-color: transparent;
     color: #fff;
 }
 .rle_searchform_tabs ul.nav-tabs > li.active > a, .rle_searchform_tabs ul.nav-tabs > li.active > a:hover, .rle_searchform_tabs ul.nav-tabs > li.active > a:focus {
     color: #ffffff;
-    border: 1px solid #dcb14b;;
-    background-color: #dcb14b;
+    border: 1px solid #0cb14b;;
+    background-color: #0cb14b;
 }
 .rle_searchform_box{
   float:left;
@@ -9594,7 +9594,7 @@ textarea:focus {
     border: 0px;
 }
 .rle_searchform_box .ui-widget-content {
-    background: #dcb14b;
+    background: #0cb14b;
 }
 .rle_searchform_box .ui-corner-all{
   border-radius:100px;
@@ -9626,8 +9626,8 @@ textarea:focus {
   background: #ffffff;
 }
 .rle_searchform_box .ui-widget-header {
-    border: 1px solid #dcb14b;
-    background: #dcb14b;
+    border: 1px solid #0cb14b;
+    background: #0cb14b;
 }
 .rle_searchform_tabs.style_2 .rle_searchform_box{
   /* padding:0px; */
@@ -9674,7 +9674,7 @@ textarea:focus {
 .rle_searchform_btn{
     float: left;
     width: 100%;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     text-align: center;
     padding: 50px 0px;
   cursor:pointer;
@@ -9764,7 +9764,7 @@ textarea:focus {
     height: 170px;
     border-radius: 100%;
     padding: 5px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
   text-align:center;
 }
 .rle_banner_tabs_infobox .rle_price_box .rle_price_box_info{
@@ -9814,8 +9814,8 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:focus{
-    border-color: #dcb14b;
-  background-color: #dcb14b;
+    border-color: #0cb14b;
+  background-color: #0cb14b;
   color:#ffffff;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -9825,8 +9825,8 @@ textarea:focus {
 }
 .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:focus {
     color: #ffffff;
-    background-color: #dcb14b;
-    border: 1px solid #dcb14b;
+    background-color: #0cb14b;
+    border: 1px solid #0cb14b;
     border-bottom-color: transparent;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -9835,7 +9835,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
     /* background: #FDC830; */  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #f37335a3, #dcb14b); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to left, #f37335a3, #0cb14b); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .rle_banner_tabslist_info{
     display: inline-block;
@@ -9896,7 +9896,7 @@ textarea:focus {
   left:0;
   right:0;
   margin:0px auto;
-  background-color #dcb14b;
+  background-color #0cb14b;
   width:50px;
   height:2px;
 }
@@ -9931,7 +9931,7 @@ textarea:focus {
   position:absolute;
   top:100%;
   left:0;
-  background-color #dcb14b;
+  background-color #0cb14b;
   width:50px;
   height:2px;
 }
@@ -9939,7 +9939,7 @@ textarea:focus {
   color:#ffffff;
 }
 .rle_left_heading.white_text p:after{
-  background-color #dcb14b;
+  background-color #0cb14b;
 }
 /*------ Buttons css start ----*/
 .rle_btn_wrapper{
@@ -9953,9 +9953,9 @@ textarea:focus {
   line-height:48px;
   width:auto;
   padding:0px 25px;
-  border:2px solid #dcb14b;
+  border:2px solid #0cb14b;
   color: #ffffff;
-  background-color #dcb14b;
+  background-color #0cb14b;
   /* border-radius:3px; */
   text-transform:uppercase;
   text-decoration:none;
@@ -9966,7 +9966,7 @@ textarea:focus {
   -ms-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   /* margin-left: -2px; */
   /* padding-left: 0px; */
 }
@@ -9997,7 +9997,7 @@ textarea:focus {
 .rle_btn:hover{
   color:#ffffff;
   text-decoration:none;
-  border:2px solid #dcb14b;
+  border:2px solid #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10031,7 +10031,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_slider .owl-theme .owl-dots .owl-dot.active span, .rle_property_slider .owl-theme .owl-dots .owl-dot:hover span{
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10079,7 +10079,7 @@ textarea:focus {
   right:0px;
   padding:8px 20px;
   font-size:21px;
-  background-color #dcb14b;
+  background-color #0cb14b;
   color:#ffffff;
   text-transform:capitalize;
 }
@@ -10158,7 +10158,7 @@ textarea:focus {
 .rle_property_infobox_details_header h3 a{
   float:left;
   width:auto;
-  color: #dcb14b;
+  color: #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -10170,7 +10170,7 @@ textarea:focus {
   float:none;
 }
 .rle_property_infobox_details_header h3 a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -10225,7 +10225,7 @@ textarea:focus {
 }
 .rle_property_infobox_details_footer ul li i{
   margin-right:3px;
-  color #dcb14b;
+  color #0cb14b;
 }
 .rle_property_infobox_details_pricefooter{
   float:left;
@@ -10238,7 +10238,7 @@ textarea:focus {
   width:auto;
   padding: 5px 0px;
   font-size:21px;
-  color #dcb14b;
+  color #0cb14b;
   text-transform:capitalize;
 }
 .rle_property_infobox_details_pricefooter a{
@@ -10255,13 +10255,13 @@ textarea:focus {
   -ms-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  border: 1px solid #dcb14b;
+  border: 1px solid #0cb14b;
   border-radius: 5px;
   padding: 5px 5px;
-  background: #dcb14b;
+  background: #0cb14b;
 }
 .rle_property_infobox_details_pricefooter a:hover{
-  color: #dcb14b;
+  color: #0cb14b;
   margin-right:0px;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -10279,7 +10279,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_infobox_details_pricefooter a:hover i{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10477,7 +10477,7 @@ textarea:focus {
   padding:10px 0px;
 }
 .rle_property_details_box .panel-group .panel-heading .panel-title i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:10px;
 }
 .rle_property_details_box_2 .share_props{
@@ -10547,7 +10547,7 @@ textarea:focus {
 .rle_property_details_box .user_info h4{
   float:left;
   width:calc(100% - 100px);
-  color #dcb14b;
+  color #0cb14b;
   margin:0px;
   margin-top:10px;
   padding-left:20px;
@@ -10577,7 +10577,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10620,7 +10620,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info_share ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10628,7 +10628,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info_share ul li a i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:5px;
 }
 .rle_property_details_box .user_info_share.style_2 ul li a i{
@@ -10821,7 +10821,7 @@ textarea:focus {
 .rle_news_slider_details_text a{
   float:left;
   width:auto;
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   text-transform:uppercase;
   font-size:12px;
@@ -10861,7 +10861,7 @@ textarea:focus {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot:hover span{    background-color #dcb14b;
+.rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot:hover span{    background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -10959,7 +10959,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .widget.text-widget ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -11001,7 +11001,7 @@ textarea:focus {
   color:#bdbfc2;
 }
 .rle_bottom_footer p a{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
 }
 .rle_bottom_footer p span{
@@ -11027,11 +11027,11 @@ textarea:focus {
   border-radius:3px;
   position:relative;
   overflow:hidden;
-  -webkit-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -moz-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -o-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -ms-box-shadow: 0px 3px 0px 0px #dcb14b;
-  box-shadow: 0px 3px 0px 0px #dcb14b;
+  -webkit-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -moz-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -o-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -ms-box-shadow: 0px 3px 0px 0px #0cb14b;
+  box-shadow: 0px 3px 0px 0px #0cb14b;
   color: #fff;
 }
 .rle_whywe_box img{
@@ -11091,7 +11091,7 @@ textarea:focus {
   bottom:-61px;
   left:0;
   right:0;
-  background-color #dcb14b;
+  background-color #0cb14b;
   padding:20px;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -11135,7 +11135,7 @@ textarea:focus {
     width: 0;
     height: 0;
     top: 77%;
-    border-bottom: 30px solid #dcb14b;
+    border-bottom: 30px solid #0cb14b;
     border-right: 263px solid transparent;
 }
 .rle_agent_slider_details img{
@@ -11147,7 +11147,7 @@ textarea:focus {
     z-index: 100000;
     left: 0;
     padding: 0px 15px 15px 15px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     display: block;
     width: 100%;
 }
@@ -11161,7 +11161,7 @@ textarea:focus {
 .rle_agent_slider_details .rle_agent_slider_details_text p{
   float:left;
   width:100%;
-  color #dcb14b;
+  color #0cb14b;
   margin:0px;
 }
 .rle_agent_slider_details .rle_agent_slider_details_text p i, .rle_agent_slider_details .rle_agent_slider_details_text a i{
@@ -11198,7 +11198,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_awsagent_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_awsagent_wrapper .owl-theme .owl-dots .owl-dot:hover span{
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -11500,7 +11500,7 @@ textarea:focus {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.rle_people_saying_slider .owl-theme .owl-dots .owl-dot.active span, .rle_people_saying_slider .owl-theme .owl-dots .owl-dot:hover span{    background-color #dcb14b;
+.rle_people_saying_slider .owl-theme .owl-dots .owl-dot.active span, .rle_people_saying_slider .owl-theme .owl-dots .owl-dot:hover span{    background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -11543,7 +11543,7 @@ textarea:focus {
   float:left;
   width:100%;
   /* padding:30px; */
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   padding: 15px;
 }
 .rle_news_slider2 .rle_news_slider2_details .rle_news_slider2_details_text h4{
@@ -11593,7 +11593,7 @@ textarea:focus {
 }
 .rle_news_slider2 .rle_news_slider2_details .rle_news_slider2_details_text ul li i{
   margin-right:10px;
-  color #dcb14b;
+  color #0cb14b;
 }
 /*------ Map Wrapper css start ----*/
 .rle_map_wrapper{
@@ -11672,7 +11672,7 @@ textarea:focus {
   font-size:18px;
 }
 .rle_itemdetails_info ul.howmuch li i{
-  color #dcb14b;
+  color #0cb14b;
   font-size: 24px;
   padding-right:10px;
 }
@@ -11683,7 +11683,7 @@ textarea:focus {
   width:100px;
   height:100px;
   border-radius:100%;
-  background-color #dcb14b;
+  background-color #0cb14b;
   text-align:center;
   color:#ffffff;
     padding-top: 35px;
@@ -11811,7 +11811,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_team_box_open ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   background-color:#ffffff;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -11969,7 +11969,7 @@ textarea:focus {
   float:left;
   width:100%;
   margin:0px;
-  color #dcb14b;
+  color #0cb14b;
 }
 .rle_agent_single_info_content ul li .rle_counter_box p{
   float:left;
@@ -12070,7 +12070,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_news_slider3 .rle_news_slider3_details .rle_news_slider3_details_text h4 a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -12107,7 +12107,7 @@ textarea:focus {
 }
 .rle_news_slider3 .rle_news_slider3_details .rle_news_slider3_details_text ul li a:hover{
   text-decoration:none;
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -12182,11 +12182,11 @@ textarea:focus {
   color:#ffffff;
 }
 .rle_pagetitle_wrapper ul.breadcrumb li a i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:10px;
 }
 .rle_pagetitle_wrapper ul.breadcrumb li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -12222,8 +12222,8 @@ textarea:focus {
 }
 .rle_pagination_wrapper ul.pagination > li > a:hover, .rle_pagination_wrapper ul.pagination > li > span:hover, .rle_pagination_wrapper ul.pagination > li > a:focus, .rle_pagination_wrapper ul.pagination > li > span:focus {
     color: #ffffff;
-    background-color: #dcb14b;
-    border-color: #dcb14b;
+    background-color: #0cb14b;
+    border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -12232,8 +12232,8 @@ textarea:focus {
 }
 .rle_pagination_wrapper ul.pagination > .active > a, .rle_pagination_wrapper ul.pagination > .active > span{
   color:#ffffff;
-  background-color #dcb14b;
-  border-color: #dcb14b;
+  background-color #0cb14b;
+  border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -12241,8 +12241,8 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_pagination_wrapper ul.pagination > .active > a:hover, .rle_pagination_wrapper ul.pagination > .active > span:hover, .rle_pagination_wrapper ul.pagination > .active > a:focus, .rle_pagination_wrapper ul.pagination > .active > span:focus {
-    background-color: #dcb14b;
-    border-color: #dcb14b;
+    background-color: #0cb14b;
+    border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -12439,7 +12439,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_blog_info h3 a:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -12463,7 +12463,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_blog_info a.rle_link:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -12598,7 +12598,7 @@ textarea:focus {
   background-color:#3b5a9a;
 }
 .twitter{
-  background-color #dcb14b;
+  background-color #0cb14b;
 }
 .rle_blog_single_info ul.rle_categories{
   float:left;
@@ -12714,7 +12714,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_comment_text a:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -12842,7 +12842,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget_categories ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -12866,7 +12866,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget_tag_cloud a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -12883,7 +12883,7 @@ textarea:focus {
   padding:30px;
 }
 .blog_sidebaar .widget.widget_recent_post h6{
-    color: #dcb14b;
+    color: #0cb14b;
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -12975,7 +12975,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget.widget_location ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -12984,7 +12984,7 @@ textarea:focus {
 }
 .widget.widget_location ul li a i{
   padding-right:5px;
-  color #dcb14b;
+  color #0cb14b;
 }
 /*------ Contact Page css start ----*/
 .rle_contact_wrapper{
@@ -13268,7 +13268,7 @@ textarea:focus {
     height: 30px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     border-radius: 3px;
 }
 .rle_menu_btn:hover, .rle_menu_btn:focus{
@@ -13325,12 +13325,12 @@ textarea:focus {
     width: 100%;
 }
 .rle_header_wrapper .rle_main_menu ul li a {
-    color: #dcb14b;
+    color: #0cb14b;
     margin-right: 0px;
     padding: 10px;
 }
 .rle_header_wrapper .rle_main_menu ul li a:hover {
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     color: #ffffff;
 }
 .rle_header_wrapper .rle_main_menu ul li ul.sub-menu {
@@ -13384,7 +13384,7 @@ textarea:focus {
     width: 0;
     height: 0;
     top: 86%;
-    border-bottom: 30px solid #dcb14b;
+    border-bottom: 30px solid #0cb14b;
     border-right: 263px solid transparent;
 }
 .rle_agent_slider_details .rle_agent_slider_details_text{
@@ -13393,7 +13393,7 @@ textarea:focus {
     z-index: 100000;
     left: 0;
     padding: 0px 15px 15px 15px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     display: block;
     width: 100%;
 }
@@ -13406,7 +13406,7 @@ textarea:focus {
     width: auto;
     list-style: none;
     margin-left: 15px;
-    color: #dcb14b!important;
+    color: #0cb14b!important;
     text-transform: capitalize;
     /* margin-top: 0; */
     display: none;
@@ -14268,7 +14268,7 @@ transition: all 0.3s linear;
 
 
 .phonemenu {
-  border: 2px solid #dcb14b;
+  border: 2px solid #0cb14b;
   padding: 8px 15px;
   border-radius: 20px;
   margin-top: 8px;
@@ -14305,11 +14305,11 @@ transition: all 0.3s linear;
     width: auto;
     list-style: none;
     margin-left: 15px;
-    color: #dcb14b!important;
+    color: #0cb14b!important;
     text-transform: capitalize;
 }
 .darkHeader .rle_top_header ul li a {
-    color: #dcb14b;
+    color: #0cb14b;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -14318,7 +14318,7 @@ transition: all 0.3s linear;
     transition: all 0.3s ease-out;
 }
 .darkHeader .phonemenu {
-    border: 2px solid #dcb14b;
+    border: 2px solid #0cb14b;
     padding: 8px 10px;
     border-radius: 20px;
     margin-top: 8px;
@@ -14333,7 +14333,7 @@ transition: all 0.3s linear;
   transition: 0.7s;
 }
 .footer-a {
-  color: #dcb14b;
+  color: #0cb14b;
 }
 .rle_banner_tabslist_info span img{
   padding-right: 5px;
@@ -14962,14 +14962,14 @@ textarea:focus {
   width:auto;
   list-style:none;
   margin-left:15px;
-  color: #e0bb63;
+  color: #3f3;
   text-transform:capitalize;
 }
 .rle_top_header ul li img{
   margin-right:10px;
 }
 .rle_top_header ul li a{
-  color: #dcb14b;
+  color: #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -14978,7 +14978,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_top_header ul li a:hover{
-  color: #dcb14b;
+  color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -15033,7 +15033,7 @@ textarea:focus {
   width:100%;
 }
 .rle_login_form p a{
-  color: #dcb14b;
+  color: #0cb14b;
 }
 .rle_login_form .form{
   float:left;
@@ -15118,7 +15118,7 @@ textarea:focus {
     left: 0px;
 }
 .rle_checkbox [type="checkbox"]:not(:checked) + label:after {
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   opacity: 0;
   transition:all 0.3s;
   -webkit-transform: scale(0);
@@ -15128,7 +15128,7 @@ textarea:focus {
   transform: scale(0);
 }
 .rle_checkbox [type="checkbox"]:checked + label:after {
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   opacity: 1;
   transition:all 0.3s;
   -webkit-transform: scale(1);
@@ -15161,7 +15161,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_login_form .form a.forgot_pswd:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -15268,7 +15268,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_header_wrapper .rle_main_menu ul li a:after{
-  border-bottom: 2px solid #dcb14b;
+  border-bottom: 2px solid #0cb14b;
 }
 .rle_header_wrapper .rle_main_menu ul li a:hover:after{
     width: 100%;
@@ -15342,7 +15342,7 @@ textarea:focus {
 }
 .rle_header_wrapper .rle_main_menu ul li ul.sub-menu li a:hover{
   color: #ffffff;
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -15370,7 +15370,7 @@ textarea:focus {
   text-transform:capitalize;
 }
 .rle_banner_text h1 span{
-  color:#dcb14b;
+  color:#0cb14b;
 }
 .rle_banner_text p{
   float:left;
@@ -15431,7 +15431,7 @@ textarea:focus {
 }
 .rle_searchform_tabs ul.nav-tabs > li > a {
   text-transform:capitalize;
-  color: #dcb14b;
+  color: #0cb14b;
   border-radius: 0px;
   background-color: rgb(255, 255, 255);
   font-size:16px;
@@ -15442,14 +15442,14 @@ textarea:focus {
 }
 .rle_searchform_tabs ul.nav > li > a:hover, .rle_searchform_tabs ul.nav > li > a:focus {
     text-decoration: none;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     border-color: transparent;
     color: #fff;
 }
 .rle_searchform_tabs ul.nav-tabs > li.active > a, .rle_searchform_tabs ul.nav-tabs > li.active > a:hover, .rle_searchform_tabs ul.nav-tabs > li.active > a:focus {
     color: #ffffff;
-    border: 1px solid #dcb14b;;
-    background-color: #dcb14b;
+    border: 1px solid #0cb14b;;
+    background-color: #0cb14b;
 }
 .rle_searchform_box{
   float:left;
@@ -15460,7 +15460,7 @@ textarea:focus {
     border: 0px;
 }
 .rle_searchform_box .ui-widget-content {
-    background: #dcb14b;
+    background: #0cb14b;
 }
 .rle_searchform_box .ui-corner-all{
   border-radius:100px;
@@ -15492,8 +15492,8 @@ textarea:focus {
   background: #ffffff;
 }
 .rle_searchform_box .ui-widget-header {
-    border: 1px solid #dcb14b;
-    background: #dcb14b;
+    border: 1px solid #0cb14b;
+    background: #0cb14b;
 }
 .rle_searchform_tabs.style_2 .rle_searchform_box{
   /* padding:0px; */
@@ -15540,7 +15540,7 @@ textarea:focus {
 .rle_searchform_btn{
     float: left;
     width: 100%;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     text-align: center;
     padding: 50px 0px;
   cursor:pointer;
@@ -15630,7 +15630,7 @@ textarea:focus {
     height: 170px;
     border-radius: 100%;
     padding: 5px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
   text-align:center;
 }
 .rle_banner_tabs_infobox .rle_price_box .rle_price_box_info{
@@ -15678,8 +15678,8 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs.nav > li > a:focus{
-    border-color: #dcb14b;
-  background-color: #dcb14b;
+    border-color: #0cb14b;
+  background-color: #0cb14b;
   color:#ffffff;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -15689,8 +15689,8 @@ textarea:focus {
 }
 .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:hover, .rle_banner_wrapper.style_3 ul.nav-tabs > li.active > a:focus {
     color: #ffffff;
-    background-color: #dcb14b;
-    border: 1px solid #dcb14b;
+    background-color: #0cb14b;
+    border: 1px solid #0cb14b;
     border-bottom-color: transparent;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -15699,7 +15699,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
     /* background: #FDC830; */  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #f37335a3, #dcb14b); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to left, #f37335a3, #0cb14b); */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .rle_banner_tabslist_info{
     display: inline-block;
@@ -15758,7 +15758,7 @@ textarea:focus {
   left:0;
   right:0;
   margin:0px auto;
-  background-color #dcb14b;
+  background-color #0cb14b;
   width:50px;
   height:2px;
 }
@@ -15793,7 +15793,7 @@ textarea:focus {
   position:absolute;
   top:100%;
   left:0;
-  background-color #dcb14b;
+  background-color #0cb14b;
   width:50px;
   height:2px;
 }
@@ -15801,7 +15801,7 @@ textarea:focus {
   color:#ffffff;
 }
 .rle_left_heading.white_text p:after{
-  background-color #dcb14b;
+  background-color #0cb14b;
 }
 /*------ Buttons css start ----*/
 .rle_btn_wrapper{
@@ -15815,9 +15815,9 @@ textarea:focus {
   line-height:48px;
   width:auto;
   padding:0px 25px;
-  border:2px solid #dcb14b;
+  border:2px solid #0cb14b;
   color: #ffffff;
-  background-color #dcb14b;
+  background-color #0cb14b;
   /* border-radius:3px; */
   text-transform:uppercase;
   text-decoration:none;
@@ -15828,7 +15828,7 @@ textarea:focus {
   -ms-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   /* margin-left: -2px; */
   /* padding-left: 0px; */
 }
@@ -15859,7 +15859,7 @@ textarea:focus {
 .rle_btn:hover{
   color:#ffffff;
   text-decoration:none;
-  border:2px solid #dcb14b;
+  border:2px solid #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -15893,7 +15893,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_slider .owl-theme .owl-dots .owl-dot.active span, .rle_property_slider .owl-theme .owl-dots .owl-dot:hover span{
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -15941,7 +15941,7 @@ textarea:focus {
   right:0px;
   padding:8px 20px;
   font-size:21px;
-  background-color #dcb14b;
+  background-color #0cb14b;
   color:#ffffff;
   text-transform:capitalize;
 }
@@ -16020,7 +16020,7 @@ textarea:focus {
 .rle_property_infobox_details_header h3 a{
   float:left;
   width:auto;
-  color: #dcb14b;
+  color: #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -16032,7 +16032,7 @@ textarea:focus {
   float:none;
 }
 .rle_property_infobox_details_header h3 a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -16087,7 +16087,7 @@ textarea:focus {
 }
 .rle_property_infobox_details_footer ul li i{
   margin-right:3px;
-  color #dcb14b;
+  color #0cb14b;
 }
 .rle_property_infobox_details_pricefooter{
   float:left;
@@ -16100,7 +16100,7 @@ textarea:focus {
   width:auto;
   padding: 5px 0px;
   font-size:21px;
-  color #dcb14b;
+  color #0cb14b;
   text-transform:capitalize;
 }
 .rle_property_infobox_details_pricefooter a {
@@ -16120,13 +16120,13 @@ textarea:focus {
     -ms-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    border: 1px solid #dcb14b;
+    border: 1px solid #0cb14b;
     border-radius: 5px;
     padding: 5px 5px;
-    background: #dcb14b;
+    background: #0cb14b;
 }
 .rle_property_infobox_details_pricefooter a:hover{
-  color: #dcb14b;
+  color: #0cb14b;
   margin-right:0px;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -16144,7 +16144,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_infobox_details_pricefooter a:hover i{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -16338,7 +16338,7 @@ textarea:focus {
   padding:10px 0px;
 }
 .rle_property_details_box .panel-group .panel-heading .panel-title i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:10px;
 }
 .rle_property_details_box_2 .share_props{
@@ -16408,7 +16408,7 @@ textarea:focus {
 .rle_property_details_box .user_info h4{
   float:left;
   width:calc(100% - 100px);
-  color #dcb14b;
+  color #0cb14b;
   margin:0px;
   margin-top:10px;
   padding-left:20px;
@@ -16438,7 +16438,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -16481,7 +16481,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info_share ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -16489,7 +16489,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_property_details_box .user_info_share ul li a i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:5px;
 }
 .rle_property_details_box .user_info_share.style_2 ul li a i{
@@ -16678,7 +16678,7 @@ textarea:focus {
 .rle_news_slider_details_text a{
   float:left;
   width:auto;
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   text-transform:uppercase;
   font-size:12px;
@@ -16718,7 +16718,7 @@ textarea:focus {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot:hover span{    background-color #dcb14b;
+.rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_latesnews_wrapper .owl-theme .owl-dots .owl-dot:hover span{    background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -16815,7 +16815,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .widget.text-widget ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -16858,7 +16858,7 @@ textarea:focus {
   color:#bdbfc2;
 }
 .rle_bottom_footer p a{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
 }
 .rle_bottom_footer p span{
@@ -16884,11 +16884,11 @@ textarea:focus {
   border-radius:3px;
   position:relative;
   overflow:hidden;
-  -webkit-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -moz-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -o-box-shadow: 0px 3px 0px 0px #dcb14b;
-  -ms-box-shadow: 0px 3px 0px 0px #dcb14b;
-  box-shadow: 0px 3px 0px 0px #dcb14b;
+  -webkit-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -moz-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -o-box-shadow: 0px 3px 0px 0px #0cb14b;
+  -ms-box-shadow: 0px 3px 0px 0px #0cb14b;
+  box-shadow: 0px 3px 0px 0px #0cb14b;
   color: #fff;
 }
 .rle_whywe_box img{
@@ -16948,7 +16948,7 @@ textarea:focus {
   bottom:-61px;
   left:0;
   right:0;
-  background-color #dcb14b;
+  background-color #0cb14b;
   padding:20px;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -16992,7 +16992,7 @@ textarea:focus {
     width: 0;
     height: 0;
     top: 77%;
-    border-bottom: 30px solid #dcb14b;
+    border-bottom: 30px solid #0cb14b;
     border-right: 263px solid transparent;
 }
 .rle_agent_slider_details img{
@@ -17004,7 +17004,7 @@ textarea:focus {
     z-index: 100000;
     left: 0;
     padding: 0px 15px 15px 15px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     display: block;
     width: 100%;
 }
@@ -17018,7 +17018,7 @@ textarea:focus {
 .rle_agent_slider_details .rle_agent_slider_details_text p{
   float:left;
   width:100%;
-  color #dcb14b;
+  color #0cb14b;
   margin:0px;
 }
 .rle_agent_slider_details .rle_agent_slider_details_text p i, .rle_agent_slider_details .rle_agent_slider_details_text a i{
@@ -17057,7 +17057,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_awsagent_wrapper .owl-theme .owl-dots .owl-dot.active span, .rle_awsagent_wrapper .owl-theme .owl-dots .owl-dot:hover span{
-  background-color #dcb14b;
+  background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -17357,7 +17357,7 @@ textarea:focus {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.rle_people_saying_slider .owl-theme .owl-dots .owl-dot.active span, .rle_people_saying_slider .owl-theme .owl-dots .owl-dot:hover span{    background-color #dcb14b;
+.rle_people_saying_slider .owl-theme .owl-dots .owl-dot.active span, .rle_people_saying_slider .owl-theme .owl-dots .owl-dot:hover span{    background-color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -17400,7 +17400,7 @@ textarea:focus {
   float:left;
   width:100%;
   /* padding:30px; */
-  background-color: #dcb14b;
+  background-color: #0cb14b;
   padding: 15px;
 }
 .rle_news_slider2 .rle_news_slider2_details .rle_news_slider2_details_text h4{
@@ -17450,7 +17450,7 @@ textarea:focus {
 }
 .rle_news_slider2 .rle_news_slider2_details .rle_news_slider2_details_text ul li i{
   margin-right:10px;
-  color #dcb14b;
+  color #0cb14b;
 }
 /*------ Map Wrapper css start ----*/
 .rle_map_wrapper{
@@ -17529,7 +17529,7 @@ textarea:focus {
   font-size:18px;
 }
 .rle_itemdetails_info ul.howmuch li i{
-  color #dcb14b;
+  color #0cb14b;
   font-size: 24px;
   padding-right:10px;
 }
@@ -17540,7 +17540,7 @@ textarea:focus {
   width:100px;
   height:100px;
   border-radius:100%;
-  background-color #dcb14b;
+  background-color #0cb14b;
   text-align:center;
   color:#ffffff;
     padding-top: 35px;
@@ -17667,7 +17667,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_team_box_open ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   background-color:#ffffff;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -17825,7 +17825,7 @@ textarea:focus {
   float:left;
   width:100%;
   margin:0px;
-  color #dcb14b;
+  color #0cb14b;
 }
 .rle_agent_single_info_content ul li .rle_counter_box p{
   float:left;
@@ -17926,7 +17926,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_news_slider3 .rle_news_slider3_details .rle_news_slider3_details_text h4 a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -17963,7 +17963,7 @@ textarea:focus {
 }
 .rle_news_slider3 .rle_news_slider3_details .rle_news_slider3_details_text ul li a:hover{
   text-decoration:none;
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -18039,11 +18039,11 @@ textarea:focus {
   color:#ffffff;
 }
 .rle_pagetitle_wrapper ul.breadcrumb li a i{
-  color #dcb14b;
+  color #0cb14b;
   padding-right:10px;
 }
 .rle_pagetitle_wrapper ul.breadcrumb li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -18079,8 +18079,8 @@ textarea:focus {
 }
 .rle_pagination_wrapper ul.pagination > li > a:hover, .rle_pagination_wrapper ul.pagination > li > span:hover, .rle_pagination_wrapper ul.pagination > li > a:focus, .rle_pagination_wrapper ul.pagination > li > span:focus {
     color: #ffffff;
-    background-color: #dcb14b;
-    border-color: #dcb14b;
+    background-color: #0cb14b;
+    border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -18089,8 +18089,8 @@ textarea:focus {
 }
 .rle_pagination_wrapper ul.pagination > .active > a, .rle_pagination_wrapper ul.pagination > .active > span{
   color:#ffffff;
-  background-color #dcb14b;
-  border-color: #dcb14b;
+  background-color #0cb14b;
+  border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -18098,8 +18098,8 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 .rle_pagination_wrapper ul.pagination > .active > a:hover, .rle_pagination_wrapper ul.pagination > .active > span:hover, .rle_pagination_wrapper ul.pagination > .active > a:focus, .rle_pagination_wrapper ul.pagination > .active > span:focus {
-    background-color: #dcb14b;
-    border-color: #dcb14b;
+    background-color: #0cb14b;
+    border-color: #0cb14b;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -18296,7 +18296,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_blog_info h3 a:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -18320,7 +18320,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_blog_info a.rle_link:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -18455,7 +18455,7 @@ textarea:focus {
   background-color:#3b5a9a;
 }
 .twitter{
-  background-color #dcb14b;
+  background-color #0cb14b;
 }
 .rle_blog_single_info ul.rle_categories{
   float:left;
@@ -18571,7 +18571,7 @@ textarea:focus {
     transition: all 0.3s ease-out;
 }
 .rle_comment_text a:hover{
-  color #dcb14b;
+  color #0cb14b;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
@@ -18699,7 +18699,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget_categories ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -18723,7 +18723,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget_tag_cloud a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -18740,7 +18740,7 @@ textarea:focus {
   padding:30px;
 }
 .blog_sidebaar .widget.widget_recent_post h6{
-    color: #dcb14b;
+    color: #0cb14b;
     font-size: 13px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -18832,7 +18832,7 @@ textarea:focus {
   transition: all 0.3s;
 }
 .widget.widget_location ul li a:hover{
-  color #dcb14b;
+  color #0cb14b;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -18841,7 +18841,7 @@ textarea:focus {
 }
 .widget.widget_location ul li a i{
   padding-right:5px;
-  color #dcb14b;
+  color #0cb14b;
 }
 /*------ Contact Page css start ----*/
 .rle_contact_wrapper{
@@ -19125,7 +19125,7 @@ textarea:focus {
     height: 30px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     border-radius: 3px;
 }
 .rle_menu_btn:hover, .rle_menu_btn:focus{
@@ -19182,12 +19182,12 @@ textarea:focus {
     width: 100%;
 }
 .rle_header_wrapper .rle_main_menu ul li a {
-    color: #dcb14b;
+    color: #0cb14b;
     margin-right: 0px;
     padding: 10px;
 }
 .rle_header_wrapper .rle_main_menu ul li a:hover {
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     color: #ffffff;
 }
 .rle_header_wrapper .rle_main_menu ul li ul.sub-menu {
@@ -19241,7 +19241,7 @@ textarea:focus {
     width: 0;
     height: 0;
     top: 86%;
-    border-bottom: 30px solid #dcb14b;
+    border-bottom: 30px solid #0cb14b;
     border-right: 263px solid transparent;
     display: none;
 }
@@ -19250,7 +19250,7 @@ textarea:focus {
     z-index: 100000;
     left: 0;
     padding: 0px 5px 5px 15px;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     display: block;
     width: 100%;
     bottom: 0px;
@@ -19264,7 +19264,7 @@ textarea:focus {
     width: auto;
     list-style: none;
     margin-left: 15px;
-    color: #dcb14b!important;
+    color: #0cb14b!important;
     text-transform: capitalize;
     /* margin-top: 0; */
     display: none;
@@ -20030,7 +20030,7 @@ min-height: 600px;
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-    background-color: #dcb14b;
+    background-color: #0cb14b;
 }
 .hamburger.is-closed .hamb-top { 
   top: 5px; 
@@ -20135,7 +20135,7 @@ transition: all 0.3s linear;
 }
 
 .phonemenu {
-  border: 1px solid #dcb14b;
+  border: 1px solid #0cb14b;
   padding: 8px 17px;
   border-radius: 20px;
   margin-top: 18px;
@@ -20172,11 +20172,11 @@ transition: all 0.3s linear;
     width: auto;
     list-style: none;
     margin-left: 15px;
-    color: #dcb14b!important;
+    color: #0cb14b!important;
     text-transform: capitalize;
 }
 .darkHeader .rle_top_header ul li a {
-    color: #dcb14b;
+    color: #0cb14b;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -20185,7 +20185,7 @@ transition: all 0.3s linear;
     transition: all 0.3s ease-out;
 }
 .darkHeader .phonemenu {
-    border: 1px solid #dcb14b;
+    border: 1px solid #0cb14b;
     padding: 8px 10px;
     border-radius: 20px;
     margin-top: 18px;
@@ -20200,7 +20200,7 @@ transition: all 0.3s linear;
       transition: 0.7s;
 }
 .footer-a {
-  color: #dcb14b;
+  color: #0cb14b;
 }
 .rle_banner_tabslist_info span img{
   padding-right: 5px;
@@ -20842,7 +20842,7 @@ transition: all 0.3s linear;
 /*****************************************property-page******************************/
 
 .whyLive p{  font-size: 29px;font-weight: normal;}
-.liveIn h2{font-size: 30px;font-weight: bold;color: #000000;margin:0;padding: 12px 0px;/* background-color: #dcb14b; */-webkit-clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);}
+.liveIn h2{font-size: 30px;font-weight: bold;color: #000000;margin:0;padding: 12px 0px;/* background-color: #0cb14b; */-webkit-clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);clip-path: polygon(0 0, 100% 0%, 93% 100%, 0% 100%);}
 .liveIn  ul{padding-left:45px; list-style: none;}
 .liveIn  ul li{ padding-left:15px;  position:relative;font-size: 14px;font-weight: 500;color: #4c4c4c; padding-bottom: 10px; padding-right:20px   }
 .liveIn  ul li:before{ position:absolute; left:0px; top:10px; width:6px; height:6px; background:#4a4a4a;content: ""; border-radius:50px;} 
@@ -20896,7 +20896,7 @@ transition: all 0.3s linear;
     color: #585858;
 }
 dl.dl-horizontal h3 {
-    background: #dcb14b;
+    background: #0cb14b;
     padding: 10px;
     font-size: 23px;
     max-width: 70%;
@@ -20926,7 +20926,7 @@ dd {
     margin-left: 0;
 }
 .bg-deng {
-    background-color: #dcb14b;
+    background-color: #0cb14b;
 }
 .p-4 {
     padding: 1.5rem!important;
@@ -20971,12 +20971,12 @@ dd {
 .ameniTop .bg-2 {
     -webkit-clip-path: polygon(0 0, 82% 0%, 93% 100%, 0% 100%);
     clip-path: polygon(0 0, 82% 0%, 100% 100%, 0% 100%);
-    background-color: #dcb14b;
+    background-color: #0cb14b;
 }
 .ameniTop .bg-3 {
     -webkit-clip-path: polygon(0 0, 82% 0%, 93% 100%, 0% 100%);
     clip-path: polygon(0 0, 82% 0%, 100% 100%, 0% 100%);
-    background-color: #dcb14b;
+    background-color: #0cb14b;
 }
 
 .ameniTop ul li span {
@@ -21051,7 +21051,7 @@ dd {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    background: #dcb14b;
+    background: #0cb14b;
     color: #000;
     padding: 10px 15px;
     text-transform: uppercase;
@@ -21076,7 +21076,7 @@ dd {
     border: solid 1px #c9c9c9;
 }
 .tableTop .table .thead-dark th {
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     color: #000;
     font-size: 18px;
 }
@@ -21094,9 +21094,9 @@ dd {
     padding: 30px 0;
     width: 100%;
     float: left;
-    background: #dcb14bbf;
+    background: #0cb14bbf;
 }
-#bannerCntr .bg-2{background: #dcb14b;/* position: relative; */}
+#bannerCntr .bg-2{background: #0cb14b;/* position: relative; */}
 #bannerCntr {width: 100%;/* margin-top: 73px */padding-top: 60px;}
 #bannerCntr .bannerMain {width: 100%;float: left;}
 #bannerCntr .sliderDiv { width: 72%;float: left;position: relative;}
@@ -21150,11 +21150,11 @@ article.clearfix.mapTop.pt-5 img {
 }
 
 .project-all-details .pro-name span a {
-    color: #dcb14b;
+    color: #0cb14b;
 }
 
 .project-all-details .pro-name a:hover {
-    color: #dcb14b;
+    color: #0cb14b;
 }
 
 .project-all-details .pro-name {
@@ -21172,7 +21172,7 @@ article.clearfix.mapTop.pt-5 img {
 }
 
 .project-all-details .contact-sec-btn {
-    background: #dcb14b;
+    background: #0cb14b;
     padding: 10px;
     border-radius: 5px;
     /* color: #fff; */
@@ -21225,13 +21225,13 @@ nav.navbar.navbar-default.property-menu li a {
 }
 
 nav.navbar.navbar-default.property-menu li a:hover {
-    border-bottom: 4px solid #dcb14b;
+    border-bottom: 4px solid #0cb14b;
 }
 
 nav.navbar.navbar-default.property-menu li.active a {
-    background: #dcb14b;
+    background: #0cb14b;
     color: #fff;
-    border-bottom: 4px solid #dcb14b;
+    border-bottom: 4px solid #0cb14b;
 }
 
 
@@ -21272,10 +21272,10 @@ color: #fff;
     left: 50%;
     transform: translate(-50%,0%);
     border-radius: 100%;
-    border: 4px solid #dcb14b;
+    border: 4px solid #0cb14b;
 }
 .downloads-plan .icon-down .fa {
-    color: #dcb14b;
+    color: #0cb14b;
     font-size: 39px;
     position: absolute;
     top: 50%;
@@ -21339,7 +21339,7 @@ color: #fff;
     font-weight: 600;
 }
 .contact-lg .fa {
-    color: #dcb14b;
+    color: #0cb14b;
 }
 .ad-color {
     background: #182835;
@@ -21350,7 +21350,7 @@ color: #fff;
     font-size: 15px;
 }
 .con-color {
-    background: #dcb14b;
+    background: #0cb14b;
     height: 470px;
 }
  .contact-lg .form-group {
@@ -21536,7 +21536,7 @@ form#unique_enquiry {
     width: 50%;
 }
 .con-color {
-    background: #dcb14b;
+    background: #0cb14b;
     height: 100%;
     display: flex;
 }
@@ -21580,7 +21580,7 @@ form#unique_enquiry {
     padding: 0;
     border-radius: 0;
     color: #ffffff;
-    background-color: #dcb14b;
+    background-color: #0cb14b;
     border-color: #EEEEEE;
 }
 .career-text .panel-title > a {
@@ -21625,7 +21625,7 @@ form.career-form {
     width:100%;
 }
 .career-btn:hover {
-    background: #dcb14b;
+    background: #0cb14b;
     color: #fff;
 }
 .career-text .panel-title > a:hover {
