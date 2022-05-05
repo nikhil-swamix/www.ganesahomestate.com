@@ -14367,3 +14367,7 @@ ul.nav.nav-tabs.featured-tabs li a:hover {
     .popular-searches .top-search-list li{width:50%;}
     .popular-searches .top-search-list li a{font-size:12px;}
 }
+
+.bg-black{
+  background-color: #000;
+}
