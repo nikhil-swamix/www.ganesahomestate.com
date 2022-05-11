@@ -1264,7 +1264,7 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 4em;
 }
 h2,
 .h2 {
@@ -8934,9 +8934,9 @@ a:focus {
   outline: none;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family:  impact;
   line-height: 1.1;
-  font-weight:700;
+  font-weight:400;
   color: #000;
 }
 img {
@@ -21696,4 +21696,31 @@ ul.nav.nav-tabs.featured-tabs li a:hover {
 @media only screen and (max-width:720px){
     .popular-searches .top-search-list li{width:50%;}
     .popular-searches .top-search-list li a{font-size:12px;}
+}
+
+.rounded{
+  border-radius: 0.25em;
+}
+.rounded-md{
+  border-radius: 0.33em;
+}
+.rounded-lg{
+  border-radius: 0.5em;
+}
+
+.rle_property_infobox{
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.bg-theme-secondary{
+  background-color: #e0ba60;
+}
+
+.bg-theme-primary{
+  background-color: #0cb14b;
+}
+
+.p-xs{
+  padding: 0.2em;
 }
