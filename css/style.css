@@ -8937,7 +8937,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.1;
   font-weight:700;
-  color: #303030;
+  color: #000;
 }
 img {
   max-width: 100%;
@@ -9877,7 +9877,7 @@ textarea:focus {
 .rle_center_heading h1{
   float:left;
   width:100%; 
-  font-size:30px;
+  font-size:3em;
   margin:0px 0px 10px 0px;
 }
 .rle_center_heading p{
@@ -10008,7 +10008,7 @@ textarea:focus {
 .rle_property_wrapper{
   float:left;
   width:100%;
-  background-color:#f7f8f9;
+  background-color:#e0ba60;
 }
 .rle_property_wrapper_2{
   float:left;
@@ -11116,7 +11116,7 @@ textarea:focus {
 .rle_awsagent_wrapper{
   float:left;
   width:100%;
-  background-color:#ffffff;
+  background-color:#0cb14b;
 }
 .rle_news_slider{
   float:left;
@@ -21662,7 +21662,7 @@ ul.nav.nav-tabs.featured-tabs li:first-child {border-right: 2px solid #000;}
 
 ul.nav.nav-tabs.featured-tabs li.active a {
     border: unset;
-    color: #dcb14c;
+    color: #fff;
 }
 ul.nav.nav-tabs.featured-tabs li a:hover {
     border-top: unset;
