@@ -10071,7 +10071,7 @@ textarea:focus {
   float:left;
   width:100%;
   position:relative;
-  height: 220px;
+  max-height: 400px;
 }
 .rle_property_infobox_img span{
   position:absolute;
