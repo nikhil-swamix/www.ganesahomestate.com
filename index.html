@@ -104,7 +104,7 @@
 
 				}
 			</style>
-			<div class="slider-main-wrapper hidden-xs">
+			<div class="slider-main-wrapper ">
 				<div class="home-slider owl-carousel owl-theme">
 					<div class="item">
 						<video loop="true" autoplay="autoplay" controls="false" muted width="320" height="240" controls>
@@ -133,28 +133,7 @@
 					
 				</div>
 			</div>
-			<!-- <div class="slider-main-wrapper hidden-md hidden-lg">
-				<div class="home-slider owl-carousel owl-theme">
-					<div class="item">
-						<img alt="Gurgaon Property Agents" src="./img/slider/ef2be4b8bae6b9cfe1c131f0469d37d6.jpg"/>
-					</div>
-					<div class="item">
-						<img alt="Gurgaon Real Estate Agents" src="./img/slider/386c1404d3be94301481969c428ac3bf.jpg"/>
-					</div>
-					<div class="item">
-						<img alt="Buy Apartment in Gurgaon" src="./img/slider/261eff0172f24918379afaff28c042e6.jpg"/>
-					</div>
-					<div class="item">
-						<img alt="Buy villa in Gurgaon" src="./img/slider/92e29adf6ad31caee990f75e4f049492.jpg"/>
-					</div>
-					<div class="item">
-						<img alt="Property in Gurgaon" src="./img/slider/d0eda4143444ee7d845747dd13f7c718.jpg"/>
-					</div>
-					<div class="item">
-						<img alt="Best Real Estate in Gurgaon" src="./img/slider/b5eec57d3a9f9506dcc05898dd3eea02.jpg"/>
-					</div>
-				</div>
-			</div> -->
+
 			<div class="container">
 				<div class="row mx-0">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -242,40 +221,42 @@
 				.specialityBox img{
 					width: 5vw;
 				}
+				@media(max-width: 768px){
+					.specialityBox img{
+						width: auto;
+					}
+				}
 			</style>
 			<!-- Property Wrapper start -->
 			<section>
 				<div class="rle_popularareas_wrapper rle_toppadder20 rle_bottompadder0 specialityWrapper">
 					<div class="container">
-						<div class="row mx-0">
-							<div class="specialityBox">
-								<ul class="row mx-0">
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/dc407f8bbd2b834a5da1c5907c88ccc8.png"/> <br> <strong>Zero <br>
-										Brokerage Fees</strong> 
-									</li>
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/2715c602d3a4333ec5c683ecf4004a07.png"/> <br><strong>Lowest Price
-										Guaranteed</strong> 
-									</li>
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/d8357db667583e66351d2fa210f5b9ae.png"/> <br> <strong>Comparative
-										Market Analysis</strong> 
-									</li>
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/c5769c62dba013c064b5d7c38973c990.png"/> <br> <strong>Exclusive <br>
-										Inventory</strong> 
-									</li>
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/3ce5116531d9848a91b91d3bce06ae2f.png"/> <br> <strong>Regular Project-Site Visits</strong> 
-									</li>
-									<!--<li class="col-2"><em class="icon-negotiation-documentation"><span class="path1"></span><span class="path2"></span></em> <strong>Negotiation &amp; <br>Documentation</strong> 
-									</li>-->
-									<li class="col-2">
-										<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/ce4a48802a44c125f4f856db5ce29811.png"/> <br> <strong>Post Sales Customer
-										Services</strong> 
-									</li>
-								</ul>
+						<div class="specialityBox">
+							<div class="row ">
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/dc407f8bbd2b834a5da1c5907c88ccc8.png"/> <br> <strong>Zero <br>
+									Brokerage Fees</strong> 
+								</li>
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/2715c602d3a4333ec5c683ecf4004a07.png"/> <br><strong>Lowest Price
+									Guaranteed</strong> 
+								</li>
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/d8357db667583e66351d2fa210f5b9ae.png"/> <br> <strong>Comparative
+									Market Analysis</strong> 
+								</li>
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/c5769c62dba013c064b5d7c38973c990.png"/> <br> <strong>Exclusive <br>
+									Inventory</strong> 
+								</li>
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/3ce5116531d9848a91b91d3bce06ae2f.png"/> <br> <strong>Regular Project-Site Visits</strong> 
+								</li>
+
+								<li class="col-4 col-lg-2">
+									<img alt="img" class="figure-img img-fluid rounded" src="./img/icon/ce4a48802a44c125f4f856db5ce29811.png"/> <br> <strong>Post Sales Customer
+									Services</strong> 
+								</li>
 							</div>
 						</div>
 					</div>
@@ -579,15 +560,15 @@
 					<span class="bg-theme-secondary rounded-md h1 p-xs">Notice Board</span>
 					<div class="newsbox">
 						<ul class="row mx-0 py-5">
-							<li class="col-6 py-5 h3">Available a best commercial properties in Chhata</li>
+							<li class="col-lg-6 py-lg-5 h3">Available a best commercial properties in Chhata</li>
 
-							<li class="col-6 py-5 h3">Available a best luxury farm house in Jewar</li>
+							<li class="col-lg-6 py-lg-5 h3">Available a best luxury farm house in Jewar</li>
 
-							<li class="col-6 py-5 h3">Available a best commercial Shop in Palwal</li>
+							<li class="col-lg-6 py-lg-5 h3">Available a best commercial Shop in Palwal</li>
 
-							<li class="col-6 py-5 h3">Available a luxury farm in Vrindavan</li>
+							<li class="col-lg-6 py-lg-5 h3">Available a luxury farm in Vrindavan</li>
 
-							<li class="col-6 py-5 h3">Get your favourite flat in Mathura, Call Now</li>
+							<li class="col-lg-6 py-lg-5 h3">Get your favourite flat in Mathura, Call Now</li>
 						</ul>
 					</div>
 					

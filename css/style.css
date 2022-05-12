@@ -1298,7 +1298,31 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 2em;
+  }
+  h2,
+  .h2 {
+    font-size: 30px;
+  }
+  h3,
+  .h3 {
+    font-size: 24px;
+  }
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+  h6,
+  .h6 {
+    font-size: 12px;
+  }
   .lead {
     font-size: 21px;
   }
@@ -15872,11 +15896,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 /*------ Property Wrapper css start ----*/
-.rle_property_wrapper{
-  float:left;
-  width:100%;
-  background-color:#f7f8f9;
-}
+
 .rle_property_wrapper_2{
   float:left;
   width:100%;
@@ -16975,11 +16995,7 @@ textarea:focus {
   transition: all 0.3s ease-out;
 }
 /*------ awesome agent wrapper css start ----*/
-.rle_awsagent_wrapper{
-  float:left;
-  width:100%;
-  background-color:#ffffff;
-}
+
 .rle_news_slider{
   float:left;
   width:100%;
