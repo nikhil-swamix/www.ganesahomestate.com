@@ -9102,14 +9102,16 @@ textarea:focus {
   margin-right:10px;
 }
 .rle_top_header ul li a{
-  color: #0cb14b;
+  color: #000;
+  font-family: Roboto;
   text-decoration:none;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  font-size: 14px;
+  font-size: 1em;
+  font-weight: 600;
 }
 .rle_top_header ul li a:hover{
   color: #0cb14b;
@@ -10700,7 +10702,7 @@ textarea:focus {
 }
 .rle_popularareas_wrapper.specialityWrapper
 {
-    margin-top: 10px;
+    margin-top: 0px;
     background:black;
 }
 .rle_popularareas_img{
