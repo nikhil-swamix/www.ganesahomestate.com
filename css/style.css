@@ -14311,7 +14311,7 @@ transition: all 0.3s linear;
     text-transform: capitalize;
 }
 .darkHeader .rle_top_header ul li a {
-    color: #0cb14b;
+    color: #000;
     text-decoration: none;
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;

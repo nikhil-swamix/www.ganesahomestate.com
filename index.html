@@ -496,10 +496,10 @@
 			<div class="rle_awsagent_wrapper ">
 				<style type="text/css">
 					.rle_awsagent_wrapper .rle_agent_slider_details img{
-						height: 100%;
+						height: 15em;
 					}
 				</style>
-				<div class="container">
+				<div class="container pt-3">
 					<div class="row mx-0">
 						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 							<div class="rle_center_heading py-5">
@@ -519,7 +519,7 @@
 									</div>
 									<div class="item">
 										<div class="rle_agent_slider_details">
-											<img alt="Sohna Road" src="https://images.unsplash.com/photo-1600713193398-7782a2874f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBjaXR5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" title=""/>
+											<img alt="Sohna Road" src="./imgx/featured/vrindavan.jpeg" title=""/>
 											<div class="rle_agent_slider_details_text">
 												<h4><a href="./location/sohna-road">Vrindavan</a> </h4>
 											</div>
@@ -527,7 +527,7 @@
 									</div>
 									<div class="item">
 										<div class="rle_agent_slider_details">
-											<img alt="Golf Course Extension Road" src="https://images.unsplash.com/photo-1600713193398-7782a2874f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBjaXR5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" title=""/>
+											<img alt="Golf Course Extension Road" src="./imgx/featured/chhata.jpeg" title=""/>
 											<div class="rle_agent_slider_details_text">
 												<h4><a href="./location/golf-course-extension-road">Chhata</a> </h4>
 											</div>
@@ -535,9 +535,17 @@
 									</div>
 									<div class="item">
 										<div class="rle_agent_slider_details">
-											<img alt="Dwarka Express Way" src="https://images.unsplash.com/photo-1600713193398-7782a2874f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWElMjBjaXR5fGVufDB8fDB8fA%3D%3D&w=1000&q=80" title=""/>
+											<img alt="Dwarka Express Way" src="./imgx/featured/jewar.jpeg" title=""/>
 											<div class="rle_agent_slider_details_text">
 												<h4><a href="./location/dwarka-express-way">Jewar </a> </h4>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										<div class="rle_agent_slider_details">
+											<img alt="Dwarka Express Way" src="./imgx/featured/palwal.jpeg" title=""/>
+											<div class="rle_agent_slider_details_text">
+												<h4><a href="./location/dwarka-express-way">Palwal </a> </h4>
 											</div>
 										</div>
 									</div>
@@ -802,14 +810,13 @@
 				});
 			</script>
 			<script>
-				$('#brand-slider').owlCarousel({
+				$('#d').owlCarousel({
 					loop: true,
 					margin: 20,
 					nav: false,
 					autoplay:true,
 					autoplayTimeout:3000,
 					
-					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 					
 					responsive: {
 						0: {
@@ -828,11 +835,10 @@
 				$('#location-slider').owlCarousel({
 					loop: true,
 					margin: 20,
-					nav: false,
+
 					autoplay:true,
 					autoplayTimeout:5000,
 					
-					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 
 					responsive: {
 						0: {
@@ -856,9 +862,9 @@
 					autoHeight:false,
 					autoplay:true,
 					autoplayTimeout:5000,
-					dots:false,
+					dots:true,
 					
-					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+					// navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 					
 					responsive: {
 						0: {
