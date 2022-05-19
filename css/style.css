@@ -9069,7 +9069,7 @@ textarea:focus {
     background-color: #ffffff;
 }
 .rle_header_wrapper{
-  float:left;
+
   width:100%;
   padding: 2px 0px;
   position: relative;
@@ -9095,7 +9095,7 @@ textarea:focus {
 }
 .rle_header_wrapper .rle_logo{
   float:left;
-  width:100%;
+  /*width:100%;*/
   /* margin-top: -5px; */
   /* background: #000; */
   padding: 5px;
@@ -9121,7 +9121,6 @@ textarea:focus {
   float:left;
   width:auto;
   list-style:none;
-  margin-left:15px;
   /*color: #0cb14b;*/
   text-transform:capitalize;
 }
@@ -13449,7 +13448,7 @@ textarea:focus {
 
 .rle_top_header ul {
     text-align: center;
-    margin-top: 10px;
+
 }
 .rle_logo img {
     width: 160px!important;
@@ -13459,8 +13458,8 @@ textarea:focus {
 .rle_top_header ul li {
     float: none;
     display: inline-block;
-    margin: 5px 0px;
-    display: none;
+    /*margin: 5px 0px;*/
+    /*display: none;*/
 }
 .rle_header_wrapper.style_2 .rle_logo {
     padding-top: 0px;
@@ -14298,9 +14297,8 @@ transition: all 0.3s linear;
 
 .phonemenu {
   /*border: 2px solid #0cb14b;*/
-  padding: 8px 15px;
+  padding: 0.25em;
   border-radius: 20px;
-  margin-top: 8px;
 }
 
 .homebanner .headermenu li span.icon {
