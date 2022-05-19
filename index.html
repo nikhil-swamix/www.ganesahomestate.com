@@ -61,19 +61,19 @@
 			
 			<div class="row mx-0">
 				<div class="col-lg-3 col-3 px-0 px-lg-5">
-					<div class="rle_logo px-lg-5">
-						<a href="."><img alt="Logo"   style="border-radius: 0.5em;" src="./imgx/logo1.png" title="Logo"/></a>
+					<div class="rle_logo px-lg-5 ">
+						<a href="." class="bg-black p-2"><img alt="Logo" height="" width="10"  style="border-radius: 0.5em;" src="./imgx/logo1.png" title="Logo"/></a>
 					</div>
 				</div>
 				
 				<div class="row col-lg-9 col-9 px-0 ">
 					<div class="rle_top_header ">
 						<ul class="row mail-txt text-left">
-							<li class="phonemenu mx-lg-1 bg-theme-secondary fstCntAbbr  ">
+							<li class="phonemenu ml-5 bg-theme-secondary fstCntAbbr  ">
 								<span class="call_icon" data-original-title="" title=""><i aria-hidden="true" class="fa fa-phone"></i></span>
 								<a class="dispNumElem " href="tel:8279766499" onclick="gtag_call_conversion();"> 8279766499</a>
 							</li>
-							<li class="phonemenu mx-lg-1 bg-theme-secondary fstCntAbbr  ">
+							<li class="phonemenu ml-5 bg-theme-secondary fstCntAbbr  ">
 								<span class="call_icon" data-original-title="" title=""><i aria-hidden="true" class="fa fa-envelope"></i></span>
 								<a class="dispNumElem " href="mailto:ganesahomestate@gmail.com">ganesahomestate@gmail.com</a>
 							</li>
@@ -91,11 +91,11 @@
 		<div class="hero-secxion">
 			<style type="text/css" >
 				.hero-secxion {
-					/*max-height: 80vh;*/
-					/*overflow-y: hidden;*/
+					max-height: 95vh;
+					overflow-y: hidden;
 					/*position: relative;*/
 					/*pointer-events: none;*/
-					/*z-index: -999999999;*/
+					z-index: -999999999;
 
 				}
 				.hero-secxion video{
@@ -103,15 +103,16 @@
 					height: 100%;
 					
 				}
-				.swiper {
+				.hero-secxion .swiper {
 					width: 100%;
 					height: 100%;
+					/*z-index: -999;*/
 				}
 
 				.swiper-slide {
 					text-align: center;
 					font-size: 18px;
-					background: #fff;
+					background: #0000;
 
 					/* Center slide text vertically */
 					display: -webkit-box;
@@ -128,12 +129,13 @@
 					align-items: center;
 				}
 
-				.swiper-slide img {
+				.hero-secxion .swiper-slide img {
+					position: relative;
 					display: block;
 					width: 100%;
 					height: 100%;
 					object-fit: cover;
-					z-index: 0;
+					z-index: -99;
 				}
 			</style>
 
@@ -150,13 +152,32 @@
 					<div class="swiper-slide" >
 						<img src="./imgx/hero/hero2.jpg" alt="">
 					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/hero/hero3.jpg" alt="">
+					</div>
 				</div>
 			</div>
 
-		    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-		    <script>
-		      var swiper = new Swiper(".mySwiper", {});
-		    </script>
+			<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+			<script>
+				var swiper = new Swiper(".mySwiper", {
+					spaceBetween: 30,
+					centeredSlides: true,
+					loop:true,
+					autoplay: {
+						delay: 2500,
+						disableOnInteraction: false,
+					},
+					pagination: {
+						el: ".swiper-pagination",
+						clickable: true,
+					},
+					navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev",
+					},
+				});
+			</script>
 
 		</div>
 		
@@ -193,14 +214,16 @@
 		
 		<style>
 			#speshal {
-				background-color: #000;
-				color: #fff;
-				margin-top: -5em;
+				background-color: #000c;
+				color: #e0ba60;
+				margin-top: -20vh;
+				position: absolute;
 				z-index: 100;
 				font-family: Roboto;
 			}
 			#speshal img{
-				width: 50%;
+				width: 33%;
+				z-index: 99999999;
 			}
 			#speshal .row div{
 				transition: 1s;
@@ -212,6 +235,7 @@
 			}
 			@media(max-width: 768px){
 				#speshal {
+					position: relative;
 					background-color: #000;
 					margin-top: -1em;
 					z-index: 1;
@@ -226,7 +250,7 @@
 		</style>
 
 		<section id="speshal">
-			<div class="row mx-0 pt-5 pb-5 text-center">
+			<div class="row mx-0 pt-2 pb-2 text-center">
 				<div class="col-4 col-lg-2 p-lg-5">
 					<img alt="img" class="figure-img" src="./imgx/icons/1.png"/> <br> 
 					<strong class="">Zero <br>	Fees</strong>
@@ -256,25 +280,28 @@
 		<script>
 			$(document).ready(function() {
 				$.fn.isInViewport = function() {
-				    var elementTop = $(this).offset().top;
-				    var elementBottom = elementTop + $(this).outerHeight();
+					var elementTop = $(this).offset().top;
+					var elementBottom = elementTop + $(this).outerHeight();
 
-				    var viewportTop = $(window).scrollTop();
-				    var viewportBottom = viewportTop + $(window).height();
+					var viewportTop = $(window).scrollTop();
+					var viewportBottom = viewportTop + $(window).height();
 
-				    return elementBottom > viewportTop && elementTop < viewportBottom;
+					return elementBottom > viewportTop && elementTop < viewportBottom;
 				};
 				$(window).on('scroll', function() {
-				    if ($('#speshal').isInViewport()) {
+					if ($('#speshal').isInViewport()) {
 						$('#speshal  div').each(function(index, el) {
 							setTimeout( ()=>{$(el).css('opacity','1');}, index*300)
 							
 						});
-				        // do something
-				    } else {
-				        // do something else
-				    }
+						// do something
+					} else {
+						// do something else
+					}
 				});
+
+				setTimeout(()=>{$('#speshal  div').each(function(index, el) {setTimeout( ()=>{$(el).css('opacity','1');}, index*300) })},500)
+				
 
 				
 			});
@@ -292,13 +319,13 @@
 				max-width: 25em;
 			}
 		</style>
-		<div id="partners" class="bg-white py-5">
+		<div id="partners" class="bg-white py-5 ">
 			<div class="container">
 				<div class=" text-center">
-					<div class="py-5">
-						<span class="bg-theme-secondary rounded-md h1 p-xs my-3"> Real Estate Partners</span>
+					<div class="py-3">
+						<span class="bg-black fg-primary rounded-md h1 p-xs"> Real Estate Partners</span>
 					</div>
-					<div class=" mt-3 py-5 ">
+					<div class=" mt-3 py-lg-5 ">
 						<img class="" src="https://image3.mouthshut.com/images/imagesp/925894595s.jpg" alt="">
 					</div>
 				</div>
@@ -306,10 +333,10 @@
 		</div>
 		<!-- Partner Wrapper start -->
 		
-		<div id="properties" class=" pt-5" >
+		<div id="properties" class="bg-black " >
 			<div class="container px-0">
 				<div class="text-center py-5 mx-auto">
-					<span class="bg-black fg-primary rounded-md h1 p-xs  ">Featured Properties</span>
+					<span class="bg-theme-secondary rounded-md h1 p-xs ">Featured Properties</span>
 					<!-- <p>Check out some of our listed properties</p> -->
 				</div>
 				<div class="col-lg-12 px-0">
@@ -555,7 +582,7 @@
 		
 		<style type="text/css">
 			.newsbox{
-				box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+				box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.27) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 				/*					border-top-left-radius: 1em;
 				border-top-right-radius: 1em;
 				*/
@@ -572,15 +599,15 @@
 				font-family: Roboto;
 			}
 		</style>
-		<section class="" >
+		<section class="container" >
 			<div class=" p-5 text-center">
 				<span class="bg-black fg-primary rounded-md h1 p-xs  mx-auto">Notice Board</span>
-				<div class="newsbox row m-0 text-left">
-					<div class="col-12 col-lg-6 py-lg-5 h3">Available a best commercial properties in Chhata</div>
-					<div class="col-12 col-lg-6 py-lg-5 h3">Available a best luxury farm house in Jewar</div>
-					<div class="col-12 col-lg-6 py-lg-5 h3">Available a best commercial Shop in Palwal</div>
-					<div class="col-12 col-lg-6 py-lg-5 h3">Available a luxury farm in Vrindavan</div>
-					<div class="col-12 col-lg-6 py-lg-5 h3">Get your favourite flat in Mathura, Call Now</div>
+				<div class="newsbox row m-0 text-left py-5 text-center">
+					<div class="col-12 col-lg-12 py-lg-5 h4">Available a best commercial properties in Chhata</div>
+					<div class="col-12 col-lg-12 py-lg-5 h4">Available a best luxury farm house in Jewar</div>
+					<div class="col-12 col-lg-12 py-lg-5 h4">Available a best commercial Shop in Palwal</div>
+					<div class="col-12 col-lg-12 py-lg-5 h4">Available a luxury farm in Vrindavan</div>
+					<div class="col-12 col-lg-12 py-lg-5 h4">Get your favourite flat in Mathura, Call Now</div>
 					
 				</div>
 				
@@ -600,26 +627,68 @@
 						height: 15vh;
 					}
 				}
+
+				#clients .mySwiper2 img{
+					max-height: 50vh;
+				}
+
 			</style>
 			
 			
 			<div class=" py-5 text-center">
 				<span class="bg-theme-secondary rounded-md h1 p-xs ">Our Clients</span>
 			</div>
-			<div class="row mx-0" style="display: flex;flex-direction: row; justify-content: center;">
-				<div class="col-6 col-lg-3 ">
-					<a href="#" target="_blank"> <img class="award-img" alt="Awards &amp; Recognition" src="./imgx/awards/h1.jpeg" title="Achievement Award"/></a>
+			<div class="swiper container mySwiper2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" >
+						<img src="./imgx/clients/c1.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/clients/c2.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/clients/c3.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/clients/c4.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/awards/h1.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/awards/h2.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/awards/h3.jpeg" alt="">
+					</div>
+					<div class="swiper-slide" >
+						<img src="./imgx/awards/h6.jpeg" alt="">
+					</div>
 				</div>
-				<div class="col-6 col-lg-3 ">
-					<a href="#" target="_blank"> <img class="award-img" alt="Awards &amp; Recognition" src="./imgx/awards/h2.jpeg" title="Achievement Award"/></a>
-				</div>
-				<div class="col-6 col-lg-3 ">
-					<a href="#" target="_blank"> <img class="award-img" alt="Awards &amp; Recognition" src="./imgx/awards/h3.jpeg" title="Achievement Award"/></a>
-				</div>
-				<div class="col-6 col-lg-3 ">
-					<a href="#" target="_blank"> <img class="award-img" alt="Awards &amp; Recognition" src="./imgx/awards/h6.jpeg" title="Achievement Award"/></a>
-				</div>
+				<div class="swiper-pagination"></div>
+				<script type="text/javascript">
+					var swiper = new Swiper(".mySwiper2", {
+						spaceBetween: 10,
+						centeredSlides: true,
+						slidesPerView:2,
+						loop:true,
+						autoplay: {
+							delay: 2500,
+							disableOnInteraction: false,
+						},
+						pagination: {
+							el: ".swiper-pagination",
+							clickable: true,
+						},
+						navigation: {
+							nextEl: ".swiper-button-next",
+							prevEl: ".swiper-button-prev",
+						},
+					});
+				</script>
 			</div>
+
+			
 			
 			
 		</div>
